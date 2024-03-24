@@ -36,7 +36,7 @@ services:
     environment:
       POSTGRES_USER: dbuser
       POSTGRES_PASSWORD: dbpassword
-      POSTGRES_DB: qonto
+      POSTGRES_DB: testdb
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
